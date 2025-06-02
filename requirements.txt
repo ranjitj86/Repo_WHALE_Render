@@ -21,3 +21,5 @@ bcrypt==3.2.0
 gunicorn
 werkzeug==2.0.3
 python-pptx==0.6.21
+extract_msg==0.28.7
+fpdf==1.7.2
