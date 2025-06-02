@@ -1,6 +1,6 @@
 flask==2.0.1
 transformers==4.30.2
-torch==2.0.1  # Uncomment only if you need it and ensure compatibility with your environment
+#torch==2.0.1  # Uncomment only if you need it and ensure compatibility with your environment
 python-dotenv==0.19.0
 numpy==1.24.0
 pandas==1.5.0
