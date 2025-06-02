@@ -1276,7 +1276,6 @@ def open_browser():
     time.sleep(1) # Give the server a moment to start
     webbrowser.open('http://localhost:5000/')
 
-if __name__ == '__main__':
-    # Open browser in a separate thread after a short delay
-    threading.Thread(target=open_browser).start()
-    app.run(debug=True) 
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port) 
