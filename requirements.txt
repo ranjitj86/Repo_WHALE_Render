@@ -1,27 +1,14 @@
-<<<<<<< HEAD
-Flask
-python-dotenv
-pandas
-openpyxl
-fpdf
-python-pptx
-extract_msg
-python-docx
-PyPDF2
-xlsxwriter
-gunicorn
-=======
 flask==2.0.1
 transformers==4.30.2
 torch==2.0.1
 python-dotenv==0.19.0
-numpy>=1.24.0
-pandas>=1.5.0
+numpy==1.24.0
+pandas==1.5.0
 python-docx==0.8.11
 PyPDF2==3.0.1
 openpyxl==3.0.9
 scikit-learn>=1.0.0
-spacy>=3.5.0
+spacy==3.5.0
 fastapi==0.68.1
 uvicorn==0.15.0
 python-multipart==0.0.5
@@ -32,5 +19,4 @@ python-jose==3.3.0
 passlib==1.7.4
 bcrypt==3.2.0
 win10toast==0.9
-gunicorn 
->>>>>>> 85f8878 (First Commit)
+gunicorn
